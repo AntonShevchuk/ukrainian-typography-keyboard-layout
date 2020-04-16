@@ -19,10 +19,10 @@ Ukrainian keyboard layout with typographic symbols based on [Ilya Birman's Russi
 ## Layout
 
 <p align="center">
-    <img alt="Ukrainian typography keyboard layout" src="./docs/ukrainian.png">
+    <img alt="Ukrainian typography keyboard layout" src="./docs/ukrainian.png" width="800px">
 </p>
 
 <p align="center">
-    <img alt="Ukrainian typography keyboard layout with Option" src="./docs/option.png">
+    <img alt="Ukrainian typography keyboard layout with Option" src="./docs/option.png" width="742px">
 </p>
 
