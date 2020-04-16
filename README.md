@@ -16,10 +16,6 @@ Ukrainian keyboard layout with typographic symbols based on [Ilya Birman's Russi
   * Move file here
 * After a logout you can add the typhographic layout in `System Preferences` > `Keyboard` > `Input Sources` menu
 
-## Usage
-
-* `⌥` + `G` for `₴`
-
 ## Layout
 
 <p align="center">
