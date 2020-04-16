@@ -1,6 +1,10 @@
-# Ukrainian Typographic Keyboard
+<p align="center">
+    <img alt="Ukrainian typography keyboard layout" src="./docs/ukrainian-typography_200x200.png" width="200px">
+</p>
 
-Ukrainian keyboard layout with typographic symbols based on [Ilya Birman's Russian typographic keyboard](http://ilyabirman.ru/type)
+# Ukrainian Typography Keyboard
+
+Ukrainian keyboard layout with typographic symbols based on [Ilya Birman's Russian typography keyboard](http://ilyabirman.ru/type)
 
 ## Installation
 
@@ -14,4 +18,11 @@ Ukrainian keyboard layout with typographic symbols based on [Ilya Birman's Russi
 
 ## Layout
 
+<p align="center">
+    <img alt="Ukrainian typography keyboard layout" src="./docs/ukrainian.png">
+</p>
+
+<p align="center">
+    <img alt="Ukrainian typography keyboard layout with Option" src="./docs/option.png">
+</p>
 
