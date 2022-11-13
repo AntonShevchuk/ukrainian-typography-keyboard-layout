@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="Ukrainian typography keyboard layout" src="./docs/ukrainian-typography_200x200.png" width="200px">
+    <img alt="Ukrainian typography keyboard layout" src="./docs/ukrainian-typography_200x200.png">
 </p>
 
 # Ukrainian Typography Keyboard
@@ -14,20 +14,14 @@ Ukrainian keyboard layout with typographic symbols based on [Ilya Birman's Russi
   * Press `Command`+`Shift`+`G`
   * Input path `~/Library/Keyboard Layouts` and press `Enter`
   * Move file here
-* After a logout you can add the typhographic layout in `System Preferences` > `Keyboard` > `Input Sources` menu
+* After a logout you can add the typographic layout in `System Preferences` > `Keyboard` > `Input Sources` menu
 
 ## Layout
 
 <p align="center">
-    <img alt="Ukrainian typography keyboard layout" src="./docs/ukrainian.png" width="800px">
+    <img alt="Ukrainian typography keyboard layout" src="./docs/ukrainian.png">
 </p>
-
-* Added `ї`, `ґ`, `є` to original keys (like on the real keyboard)
-* Added `і` to `S` key and `и` to `B` key (like on the PC layout)
-* Added `'` to `~` key
 
 <p align="center">
-    <img alt="Ukrainian typography keyboard layout with Option" src="./docs/option.png" width="742px">
+    <img alt="Ukrainian typography keyboard layout with Option" src="./docs/option.png">
 </p>
-
-* Added `₴` to `⌥` + `G`

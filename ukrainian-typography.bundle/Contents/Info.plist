@@ -3,15 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>org.sil.ukelele.keyboardlayout.ukrainian</string>
+	<string>org.sil.ukelele.keyboardlayout.ukrainian-typography</string>
 	<key>CFBundleName</key>
-	<string>Ukrainian - Typography</string>
+	<string>ukrainian-typography</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>KLInfo_Ukrainian - Typography</key>
 	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISIconIsTemplate</key>
+		<false/>
 		<key>TISInputSourceID</key>
-		<string>org.sil.ukelele.keyboardlayout.ukrainian.ukrainian-typography</string>
+		<string>org.sil.ukelele.keyboardlayout.ukrainian-typography.ukrainian-typography</string>
 		<key>TISIntendedLanguage</key>
 		<string>uk</string>
 	</dict>
