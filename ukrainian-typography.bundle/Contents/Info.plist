@@ -5,7 +5,7 @@
 	<key>CFBundleIdentifier</key>
 	<string>org.sil.ukelele.keyboardlayout.ukrainian-typography</string>
 	<key>CFBundleName</key>
-	<string>Ukrainian - Typography</string>
+	<string>ukrainian-typography</string>
 	<key>CFBundleVersion</key>
 	<string>1.1.0</string>
 	<key>KLInfo_Ukrainian - Typography</key>

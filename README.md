@@ -8,6 +8,8 @@ Ukrainian keyboard layout with typographic symbols based on [Ilya Birman's Russi
 
 ## Installation
 
+### Manual
+
 * Download [archive](https://github.com/AntonShevchuk/ukrainian-typography-keyboard-layout/archive/master.zip)
 * Move `ukrainian-typography.bundle` to the folder with keyboard layouts for the current user:
   * Open Finder window
@@ -15,6 +17,15 @@ Ukrainian keyboard layout with typographic symbols based on [Ilya Birman's Russi
   * Input path `~/Library/Keyboard Layouts` and press `Enter`
   * Move file here
 * After a logout you can add the typographic layout in `System Preferences` > `Keyboard` > `Input Sources` menu
+
+### Installer
+
+* Download a `ukrainian-typography.dmg` from the [releases page](https://github.com/AntonShevchuk/ukrainian-typography-keyboard-layout/releases)
+* Run the `Keyboard Installer`
+* Drag and drop `ukrainian-typography.bundle` to the installer window
+* Choose one of the available option:
+  * Install for current user (recommended)
+  * Install for all users (Sierra or earlier)
 
 ## Layout
 
