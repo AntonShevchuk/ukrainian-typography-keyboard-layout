@@ -26,6 +26,7 @@ Ukrainian keyboard layout with typographic symbols based on [Ilya Birman's Russi
 * Choose one of the available option:
   * Install for current user (recommended)
   * Install for all users (Sierra or earlier)
+* After a logout you can add the typographic layout in `System Preferences` > `Keyboard` > `Input Sources` menu
 
 ## Layout
 
