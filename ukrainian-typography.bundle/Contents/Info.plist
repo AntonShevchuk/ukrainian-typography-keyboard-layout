@@ -11,7 +11,7 @@
 	<key>KLInfo_English - Typography</key>
 	<dict>
 		<key>TICapsLockLanguageSwitchCapable</key>
-		<false/>
+		<true/>
 		<key>TISIconIsTemplate</key>
 		<false/>
 		<key>TISInputSourceID</key>
@@ -22,7 +22,7 @@
 	<key>KLInfo_Ukrainian - Typography</key>
 	<dict>
 		<key>TICapsLockLanguageSwitchCapable</key>
-		<false/>
+		<true/>
 		<key>TISIconIsTemplate</key>
 		<false/>
 		<key>TISInputSourceID</key>
