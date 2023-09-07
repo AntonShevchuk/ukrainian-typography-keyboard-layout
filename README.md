@@ -8,16 +8,6 @@ Ukrainian keyboard layout with typographic symbols based on [Ilya Birman's Russi
 
 ## Installation
 
-### Manual
-
-* Download [archive](https://github.com/AntonShevchuk/ukrainian-typography-keyboard-layout/archive/master.zip)
-* Move `ukrainian-typography.bundle` to the folder with keyboard layouts for the current user:
-  * Open Finder window
-  * Press `Command`+`Shift`+`G`
-  * Input path `~/Library/Keyboard Layouts` and press `Enter`
-  * Move file here
-* After a logout you can add the typographic layout in `System Preferences` > `Keyboard` > `Input Sources` menu
-
 ### Installer
 
 * Download a `ukrainian-typography.dmg` from the [releases page](https://github.com/AntonShevchuk/ukrainian-typography-keyboard-layout/releases)
@@ -26,6 +16,16 @@ Ukrainian keyboard layout with typographic symbols based on [Ilya Birman's Russi
 * Choose one of the available option:
   * Install for current user (recommended)
   * Install for all users (Sierra or earlier)
+* After a logout you can add the typographic layout in `System Preferences` > `Keyboard` > `Input Sources` menu
+
+### Manual
+
+* Download [archive](https://github.com/AntonShevchuk/ukrainian-typography-keyboard-layout/archive/master.zip)
+* Move `ukrainian-typography.bundle` to the folder with keyboard layouts for the current user:
+  * Open Finder window
+  * Press `Command`+`Shift`+`G`
+  * Input path `~/Library/Keyboard Layouts` and press `Enter`
+  * Move file here
 * After a logout you can add the typographic layout in `System Preferences` > `Keyboard` > `Input Sources` menu
 
 ## Layout
@@ -37,3 +37,10 @@ Ukrainian keyboard layout with typographic symbols based on [Ilya Birman's Russi
 <p align="center">
     <img alt="Ukrainian typography keyboard layout with Option" src="./docs/option.png">
 </p>
+
+## License
+
+The project is developed by [Anton Shevchuk][1], and distributed under [MIT LICENSE][2]
+
+[1]: https://anton.shevchuk.name/
+[2]: https://raw.githubusercontent.com/AntonShevchuk/ukrainian-typography-keyboard-layout/master/LICENSE
