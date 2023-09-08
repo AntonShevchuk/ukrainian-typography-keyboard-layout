@@ -4,7 +4,7 @@
 
 # Ukrainian Typography Keyboard
 
-Ukrainian keyboard layout with typographic symbols based on [Ilya Birman's Russian typography keyboard](http://ilyabirman.ru/type)
+Ukrainian keyboard layout with typographic symbols based on Ilya Birman's typography keyboard
 
 ## Installation
 
@@ -30,12 +30,20 @@ Ukrainian keyboard layout with typographic symbols based on [Ilya Birman's Russi
 
 ## Layout
 
+### `🇺🇦`
 <p align="center">
     <img alt="Ukrainian typography keyboard layout" src="./docs/ukrainian.png">
 </p>
 
+### `⌥`
 <p align="center">
     <img alt="Ukrainian typography keyboard layout with Option" src="./docs/option.png">
+</p>
+
+### `⌥` + `⌃`
+
+<p align="center">
+    <img alt="Ukrainian typography keyboard layout with Option and Shift" src="./docs/option-shift.png">
 </p>
 
 ## License
