@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 396 on 2024-06-06 at 18:22 (CEST)-->
-<keyboard group="126" id="-27206" name="Ukrainian - Typography" maxout="3">
+<!--Last edited by Ukelele version 396 on 2024-06-07 at 16:23 (CEST)-->
+<keyboard group="126" id="-2611" name="Ukrainian - Typography" maxout="3">
     <layouts>
         <layout first="0" last="17" mapSet="1fc" modifiers="f4"/>
         <layout first="18" last="18" mapSet="c18" modifiers="f4"/>
@@ -12,7 +12,7 @@
         <layout first="200" last="201" mapSet="c18" modifiers="f4"/>
         <layout first="206" last="207" mapSet="c18" modifiers="f4"/>
     </layouts>
-    <modifierMap id="f4" defaultIndex="7">
+    <modifierMap id="f4" defaultIndex="6">
         <keyMapSelect mapIndex="0">
             <modifier keys=""/>
         </keyMapSelect>
@@ -28,13 +28,10 @@
         <keyMapSelect mapIndex="4">
             <modifier keys="anyShift caps? anyOption"/>
         </keyMapSelect>
-        <keyMapSelect mapIndex="5">
-            <modifier keys="caps anyOption"/>
-        </keyMapSelect>
-        <keyMapSelect mapIndex="7">
+        <keyMapSelect mapIndex="6">
             <modifier keys="anyShift? caps? anyOption? anyControl"/>
         </keyMapSelect>
-        <keyMapSelect mapIndex="9">
+        <keyMapSelect mapIndex="8">
             <modifier keys="anyShift? caps? anyOption? command anyControl?"/>
         </keyMapSelect>
     </modifierMap>
@@ -164,7 +161,7 @@
             <key code="7" action="a1291"/>
             <key code="8" action="a1231"/>
             <key code="9" action="a1181"/>
-            <key code="10" action="a19"/>
+            <key code="10" action="~"/>
             <key code="11" action="a1121"/>
             <key code="12" action="a1151"/>
             <key code="13" action="a1281"/>
@@ -204,7 +201,7 @@
             <key code="47" action="a1361"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action="a0"/>
-            <key code="50" action="a20"/>
+            <key code="50" action="~"/>
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
@@ -276,7 +273,7 @@
             <key code="7" action="a1291"/>
             <key code="8" action="a1231"/>
             <key code="9" action="a1181"/>
-            <key code="10" action="a19"/>
+            <key code="10" action="~"/>
             <key code="11" action="a1121"/>
             <key code="12" action="a1151"/>
             <key code="13" action="a1281"/>
@@ -308,7 +305,7 @@
             <key code="39" action="a1081"/>
             <key code="40" action="a1171"/>
             <key code="41" action="a1191"/>
-            <key code="42" output="Ґ"/>
+            <key code="42" output="|"/>
             <key code="43" action="a1021"/>
             <key code="44" output="."/>
             <key code="45" action="a1241"/>
@@ -316,7 +313,7 @@
             <key code="47" action="a1361"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action="a0"/>
-            <key code="50" output="’"/>
+            <key code="50" output="~"/>
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
@@ -494,25 +491,25 @@
             <key code="1" action="a1331"/>
             <key code="2" output="⌀"/>
             <key code="3" output="ƒ"/>
-            <key code="4" output=""/>
+            <key code="4" action="double-acute"/>
             <key code="5" output=""/>
-            <key code="6" action="a7"/>
+            <key code="6" action="cedilla"/>
             <key code="7" output="·"/>
             <key code="8" output="¢"/>
-            <key code="9" action="a4"/>
-            <key code="10" action="a2"/>
+            <key code="9" action="caron"/>
+            <key code="10" action="grave"/>
             <key code="11" output=""/>
-            <key code="12" action="a5"/>
-            <key code="13" output=""/>
+            <key code="12" action="breve"/>
+            <key code="13" action="macron"/>
             <key code="14" output="Ў"/>
-            <key code="15" action="a3"/>
-            <key code="16" action="a1"/>
+            <key code="15" action="ring"/>
+            <key code="16" action="diaeresis"/>
             <key code="17" output="Ё"/>
             <key code="18" output="¡"/>
             <key code="19" output="¹⁄₂"/>
             <key code="20" output="¹⁄₃"/>
             <key code="21" output="¹⁄₄"/>
-            <key code="22" action="a9"/>
+            <key code="22" action="circumflex"/>
             <key code="23" output=""/>
             <key code="24" output="±"/>
             <key code="25" output="‹"/>
@@ -521,7 +518,7 @@
             <key code="28" output=""/>
             <key code="29" output="›"/>
             <key code="30" output="}"/>
-            <key code="31" action="a8"/>
+            <key code="31" action="acute"/>
             <key code="32" action="a1051"/>
             <key code="33" output="{"/>
             <key code="34" action="a94"/>
@@ -535,12 +532,12 @@
             <key code="42" output="\"/>
             <key code="43" output="«"/>
             <key code="44" action="a87"/>
-            <key code="45" action="a6"/>
+            <key code="45" action="tilde"/>
             <key code="46" action="a1321"/>
             <key code="47" output="»"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" output=" "/>
-            <key code="50" action="a2"/>
+            <key code="50" action="grave"/>
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
@@ -602,118 +599,6 @@
             <key code="126" output="&#x001E;"/>
         </keyMap>
         <keyMap index="5">
-            <key code="0" output="Å"/>
-            <key code="1" output="Í"/>
-            <key code="2" output="Î"/>
-            <key code="3" output="Ï"/>
-            <key code="4" output="Ó"/>
-            <key code="5" output="©"/>
-            <key code="6" output="Ω"/>
-            <key code="7" output="≈"/>
-            <key code="8" output="Ç"/>
-            <key code="9" output="√"/>
-            <key code="10" output="§"/>
-            <key code="11" output="ı"/>
-            <key code="12" output="Œ"/>
-            <key code="13" output="∑"/>
-            <key code="14" output="´"/>
-            <key code="15" output="®"/>
-            <key code="16" output="…"/>
-            <key code="17" output="†"/>
-            <key code="18" output="¡"/>
-            <key code="19" output="™"/>
-            <key code="20" output="£"/>
-            <key code="21" output="¢"/>
-            <key code="22" output="§"/>
-            <key code="23" output="∞"/>
-            <key code="24" output="≠"/>
-            <key code="25" output="ª"/>
-            <key code="26" output="¶"/>
-            <key code="27" output="–"/>
-            <key code="28" output="•"/>
-            <key code="29" output="º"/>
-            <key code="30" output="‘"/>
-            <key code="31" output="Ø"/>
-            <key code="32" output="¨"/>
-            <key code="33" output="“"/>
-            <key code="34" output="ˆ"/>
-            <key code="35" output="∏"/>
-            <key code="36" output="&#x000D;"/>
-            <key code="37" output="Ò"/>
-            <key code="38" output="Ô"/>
-            <key code="39" output="Æ"/>
-            <key code="40" output="˚"/>
-            <key code="41" output="…"/>
-            <key code="42" output="«"/>
-            <key code="43" output="≤"/>
-            <key code="44" output="÷"/>
-            <key code="45" output="˜"/>
-            <key code="46" output="Â"/>
-            <key code="47" output="≥"/>
-            <key code="48" output="&#x0009;"/>
-            <key code="49" output=" "/>
-            <key code="50" output="`"/>
-            <key code="51" output="&#x0008;"/>
-            <key code="52" output="&#x0003;"/>
-            <key code="53" output="&#x001B;"/>
-            <key code="64" output="&#x0010;"/>
-            <key code="65" output="."/>
-            <key code="66" output="&#x001D;"/>
-            <key code="67" output="*"/>
-            <key code="69" output="+"/>
-            <key code="70" output="&#x001C;"/>
-            <key code="71" output="&#x001B;"/>
-            <key code="72" output="&#x001F;"/>
-            <key code="75" output="/"/>
-            <key code="76" output="&#x0003;"/>
-            <key code="77" output="&#x001E;"/>
-            <key code="78" output="-"/>
-            <key code="79" output="&#x0010;"/>
-            <key code="80" output="&#x0010;"/>
-            <key code="81" output="="/>
-            <key code="82" output="0"/>
-            <key code="83" output="1"/>
-            <key code="84" output="2"/>
-            <key code="85" output="3"/>
-            <key code="86" output="4"/>
-            <key code="87" output="5"/>
-            <key code="88" output="6"/>
-            <key code="89" output="7"/>
-            <key code="91" output="8"/>
-            <key code="92" output="9"/>
-            <key code="96" output="&#x0010;"/>
-            <key code="97" output="&#x0010;"/>
-            <key code="98" output="&#x0010;"/>
-            <key code="99" output="&#x0010;"/>
-            <key code="100" output="&#x0010;"/>
-            <key code="101" output="&#x0010;"/>
-            <key code="102" output="&#x0010;"/>
-            <key code="103" output="&#x0010;"/>
-            <key code="104" output="&#x0010;"/>
-            <key code="105" output="&#x0010;"/>
-            <key code="106" output="&#x0010;"/>
-            <key code="107" output="&#x0010;"/>
-            <key code="108" output="&#x0010;"/>
-            <key code="109" output="&#x0010;"/>
-            <key code="110" output="&#x0010;"/>
-            <key code="111" output="&#x0010;"/>
-            <key code="112" output="&#x0010;"/>
-            <key code="113" output="&#x0010;"/>
-            <key code="114" output="&#x0005;"/>
-            <key code="115" output="&#x0001;"/>
-            <key code="116" output="&#x000B;"/>
-            <key code="117" output="&#x007F;"/>
-            <key code="118" output="&#x0010;"/>
-            <key code="119" output="&#x0004;"/>
-            <key code="120" output="&#x0010;"/>
-            <key code="121" output="&#x000C;"/>
-            <key code="122" output="&#x0010;"/>
-            <key code="123" output="&#x001C;"/>
-            <key code="124" output="&#x001D;"/>
-            <key code="125" output="&#x001F;"/>
-            <key code="126" output="&#x001E;"/>
-        </keyMap>
-        <keyMap index="6">
             <key code="0" output="å"/>
             <key code="1" output="ß"/>
             <key code="2" output="∂"/>
@@ -825,7 +710,7 @@
             <key code="125" output="&#x001F;"/>
             <key code="126" output="&#x001E;"/>
         </keyMap>
-        <keyMap index="7">
+        <keyMap index="6">
             <key code="0" output="&#x0001;"/>
             <key code="1" output="&#x0013;"/>
             <key code="2" output="&#x0004;"/>
@@ -842,7 +727,7 @@
             <key code="13" output="&#x0017;"/>
             <key code="14" output="&#x0005;"/>
             <key code="15" output="&#x0012;"/>
-            <key code="16" output=";"/>
+            <key code="16" output="&#x0019;"/>
             <key code="17" output="&#x0014;"/>
             <key code="18" output="1"/>
             <key code="19" output="2"/>
@@ -937,7 +822,7 @@
             <key code="125" output="&#x001F;"/>
             <key code="126" output="&#x001E;"/>
         </keyMap>
-        <keyMap index="8">
+        <keyMap index="7">
             <key code="0" output="a"/>
             <key code="1" output="s"/>
             <key code="2" output="d"/>
@@ -1043,7 +928,7 @@
             <key code="125" output="&#x001F;"/>
             <key code="126" output="&#x001E;"/>
         </keyMap>
-        <keyMap index="9">
+        <keyMap index="8">
             <key code="0" output="a"/>
             <key code="1" output="s"/>
             <key code="2" output="d"/>
@@ -1060,7 +945,7 @@
             <key code="13" output="w"/>
             <key code="14" output="e"/>
             <key code="15" output="r"/>
-            <key code="16" output=";"/>
+            <key code="16" output="y"/>
             <key code="17" output="t"/>
             <key code="18" output="1"/>
             <key code="19" output="2"/>
@@ -1211,124 +1096,41 @@
         </keyMap>
         <keyMap index="5" baseMapSet="1fc" baseIndex="5">
             <key code="93" output="\"/>
-            <key code="94" output="`"/>
-            <key code="95" output=","/>
-            <key code="102" action="a0"/>
-            <key code="104" action="a0"/>
-        </keyMap>
-        <keyMap index="6" baseMapSet="1fc" baseIndex="6">
-            <key code="93" output="\"/>
             <key code="94" output="_"/>
             <key code="95" output=","/>
             <key code="102" action="a0"/>
             <key code="104" action="a0"/>
         </keyMap>
-        <keyMap index="7" baseMapSet="1fc" baseIndex="7">
+        <keyMap index="6" baseMapSet="1fc" baseIndex="6">
             <key code="93" output="|"/>
             <key code="94" output="_"/>
             <key code="95" output=","/>
             <key code="102" action="a0"/>
             <key code="104" action="a0"/>
         </keyMap>
-        <keyMap index="8" baseMapSet="1fc" baseIndex="8">
+        <keyMap index="7" baseMapSet="1fc" baseIndex="7">
             <key code="512" output=""/>
         </keyMap>
-        <keyMap index="9" baseMapSet="1fc" baseIndex="9">
+        <keyMap index="8" baseMapSet="1fc" baseIndex="8">
             <key code="512" output=""/>
         </keyMap>
     </keyMapSet>
     <actions>
+        <!-- space bar is a0 -->
         <action id="a0">
             <when state="none" output=" "/>
-            <when state="1" output="¨"/>
-            <when state="2" output="`"/>
-            <when state="3" output="˚"/>
-            <when state="4" output="ˇ"/>
-            <when state="5" output="˘"/>
-            <when state="6" output="˜"/>
-            <when state="7" output="¯"/>
-            <when state="8" output="´"/>
-            <when state="9" output="ˆ"/>
+            <when state="acute" output="´"/>
+            <when state="breve" output="˘"/>
+            <when state="caron" output="ˇ"/>
+            <when state="cedilla" output="¸"/>
+            <when state="circumflex" output="ˆ"/>
+            <when state="diaeresis" output="¨"/>
+            <when state="double-acute" output="˝"/>
+            <when state="grave" output="`"/>
+            <when state="macron" output="¯"/>
+            <when state="ring" output="˚"/>
+            <when state="tilde" output="˜"/>
         </action>
-
-        <action id="a1">
-            <when state="none" next="1"/>
-            <when state="1" output="̈"/>
-        </action>
-        <action id="a2">
-            <when state="none" next="2"/>
-            <when state="2" output="̀"/>
-        </action>
-        <action id="a3">
-            <when state="none" next="3"/>
-            <when state="3" output="̊"/>
-        </action>
-        <action id="a4">
-            <when state="none" next="4"/>
-            <when state="4" output="̌"/>
-        </action>
-        <action id="a5">
-            <when state="none" next="5"/>
-            <when state="5" output="̆"/>
-        </action>
-
-        <action id="a6">
-            <when state="none" next="6"/>
-        </action>
-        <action id="a7">
-            <when state="none" next="7"/>
-            <when state="7" output="̄"/>
-        </action>
-        <action id="a8">
-            <when state="none" next="8"/>
-            <when state="1" output="´"/>
-        </action>
-        <action id="a9">
-            <when state="none" next="9"/>
-            <when state="9" output="̂"/>
-        </action>
-
-        <action id="a45">
-            <when state="none" next="2"/>
-        </action>
-
-
-        <action id="a19">
-            <when state="none" output="~"/>
-        </action>
-        <action id="a20">
-            <when state="none" output="~"/>
-        </action>
-        <action id="a77">
-            <when state="none" output="`"/>
-        </action>
-        <action id="a79">
-            <when state="none" output="`"/>
-        </action>
-        <action id="a82">
-            <when state="none" output="‘"/>
-            <when state="1" output="‘"/>
-        </action>
-        <action id="a87">
-            <when state="none" output="…"/>
-            <when state="8" output="́"/>
-        </action>
-        <action id="a90">
-            <when state="none" output=":"/>
-            <when state="1" output=";"/>
-        </action>
-        <action id="a93">
-            <when state="none" output="’"/>
-            <when state="1" output="’"/>
-        </action>
-        <action id="a94">
-            <when state="none" output="⇧"/>
-        </action>
-        <action id="a96">
-            <when state="none" output=";"/>
-            <when state="1" output=":"/>
-        </action>
-
         <!--
         А а, Б б, В в, Г г, Ґ ґ,
         Д д, Е е, Є є, Ж ж, З з,
@@ -1338,28 +1140,25 @@
         Х х, Ц ц, Ч ч, Ш ш, Щ щ,
         Ъ ъ, Ы ы, Ь ь, Ю ю, Я я
         -->
-
         <action id="a1010">
-            <!-- АÁ 1:Ӓä 2:Àà 3:Åå 5:Ăă 6:Ãã 9:Ââ 11:Āā -->
             <when state="none" output="а"/>
-            <when state="1" output="ä"/>
-            <when state="2" output="à"/>
-            <when state="3" output="å"/>
-            <when state="5" output="ă"/>
-            <when state="6" output="ã"/>
-            <when state="7" output="ā"/>
-            <when state="9" output="â"/>
+            <when state="breve" output="ă"/>
+            <when state="circumflex" output="â"/>
+            <when state="diaeresis" output="ä"/>
+            <when state="grave" output="à"/>
+            <when state="macron" output="ā"/>
+            <when state="ring" output="å"/>
+            <when state="tilde" output="ã"/>
         </action>
         <action id="a1011">
-            <!-- АÁ 1:Ӓä 2:Àà 3:Åå 5:Ăă 6:Ãã 9:Ââ 11:Āā -->
             <when state="none" output="А"/>
-            <when state="1" output="Ä"/>
-            <when state="2" output="À"/>
-            <when state="3" output="Å"/>
-            <when state="5" output="Ă"/>
-            <when state="6" output="Ã"/>
-            <when state="7" output="Ā"/>
-            <when state="9" output="Â"/>
+            <when state="breve" output="Ă"/>
+            <when state="circumflex" output="Â"/>
+            <when state="diaeresis" output="Ä"/>
+            <when state="grave" output="À"/>
+            <when state="macron" output="Ā"/>
+            <when state="ring" output="Å"/>
+            <when state="tilde" output="Ã"/>
         </action>
         <action id="a1020">
             <when state="none" output="б"/>
@@ -1375,11 +1174,11 @@
         </action>
         <action id="a1040">
             <when state="none" output="г"/>
-            <when state="8" output="ѓ"/>
+            <when state="acute" output="ѓ"/>
         </action>
         <action id="a1041">
             <when state="none" output="Г"/>
-            <when state="8" output="Ѓ"/>
+            <when state="acute" output="Ѓ"/>
         </action>
         <action id="a1050">
             <when state="none" output="ґ"/>
@@ -1394,22 +1193,20 @@
             <when state="none" output="Д"/>
         </action>
         <action id="a1070">
-            <!-- Е 1:Ёё 2:Ѐѐ 5:Ӗӗ 9:Êê 11:Ēē -->
             <when state="none" output="е"/>
-            <when state="1" output="ё"/>
-            <when state="2" output="ѐ"/>
-            <when state="5" output="ӗ"/>
-            <when state="7" output="ē"/>
-            <when state="9" output="ê"/>
+            <when state="breve" output="ӗ"/>
+            <when state="circumflex" output="ê"/>
+            <when state="diaeresis" output="ё"/>
+            <when state="grave" output="ѐ"/>
+            <when state="macron" output="ē"/>
         </action>
         <action id="a1071">
-            <!-- Е 1:Ёё 2:Ѐѐ 5:Ӗӗ 9:Êê 11:Ēē -->
             <when state="none" output="Е"/>
-            <when state="1" output="Ё"/>
-            <when state="2" output="Ѐ"/>
-            <when state="5" output="Ӗ"/>
-            <when state="7" output="Ē"/>
-            <when state="9" output="Ê"/>
+            <when state="breve" output="Ӗ"/>
+            <when state="circumflex" output="Ê"/>
+            <when state="diaeresis" output="Ё"/>
+            <when state="grave" output="Ѐ"/>
+            <when state="macron" output="Ē"/>
         </action>
         <action id="a1080">
             <when state="none" output="є"/>
@@ -1419,45 +1216,45 @@
         </action>
         <action id="a1090">
             <when state="none" output="ж"/>
-            <when state="1" output="ӝ"/>
-            <when state="5" output="ӂ"/>
+            <when state="breve" output="ӂ"/>
+            <when state="diaeresis" output="ӝ"/>
         </action>
         <action id="a1091">
             <when state="none" output="Ж"/>
-            <when state="1" output="Ӝ"/>
-            <when state="5" output="Ӂ"/>
+            <when state="breve" output="Ӂ"/>
+            <when state="diaeresis" output="Ӝ"/>
         </action>
         <action id="a1100">
             <when state="none" output="з"/>
-            <when state="1" output="ӟ"/>
+            <when state="diaeresis" output="ӟ"/>
         </action>
         <action id="a1110">
             <when state="none" output="З"/>
-            <when state="1" output="Ӟ"/>
+            <when state="diaeresis" output="Ӟ"/>
         </action>
         <action id="a1120">
             <when state="none" output="и"/>
-            <when state="1" output="ӥ"/>
-            <when state="2" output="ѝ"/>
-            <when state="5" output="й"/>
-            <when state="7" output="ӣ"/>
-            <when state="9" output="и̂"/>
+            <when state="breve" output="й"/>
+            <when state="circumflex" output="и̂"/>
+            <when state="diaeresis" output="ӥ"/>
+            <when state="grave" output="ѝ"/>
+            <when state="macron" output="ӣ"/>
         </action>
         <action id="a1121">
             <when state="none" output="И"/>
-            <when state="1" output="Ӥ"/>
-            <when state="2" output="Ѝ"/>
-            <when state="5" output="Й"/>
-            <when state="7" output="Ӣ"/>
-            <when state="9" output="И̂"/>
+            <when state="breve" output="Й"/>
+            <when state="circumflex" output="И̂"/>
+            <when state="diaeresis" output="Ӥ"/>
+            <when state="grave" output="Ѝ"/>
+            <when state="macron" output="Ӣ"/>
         </action>
         <action id="a1130">
             <when state="none" output="і"/>
-            <when state="1" output="ї"/>
+            <when state="diaeresis" output="ї"/>
         </action>
         <action id="a1131">
             <when state="none" output="І"/>
-            <when state="1" output="Ї"/>
+            <when state="diaeresis" output="Ї"/>
         </action>
         <action id="a1140">
             <when state="none" output="ї"/>
@@ -1467,27 +1264,27 @@
         </action>
         <action id="a1150">
             <when state="none" output="й"/>
-            <when state="1" output="ӥ"/>
-            <when state="2" output="ѝ"/>
-            <when state="5" output="й"/>
-            <when state="7" output="ӣ"/>
-            <when state="9" output="и̂"/>
+            <when state="breve" output="й"/>
+            <when state="circumflex" output="и̂"/>
+            <when state="diaeresis" output="ӥ"/>
+            <when state="grave" output="ѝ"/>
+            <when state="macron" output="ӣ"/>
         </action>
         <action id="a1151">
             <when state="none" output="Й"/>
-            <when state="1" output="Ӥ"/>
-            <when state="2" output="Ѝ"/>
-            <when state="5" output="Й"/>
-            <when state="7" output="Ӣ"/>
-            <when state="9" output="И̂"/>
+            <when state="breve" output="Й"/>
+            <when state="circumflex" output="И̂"/>
+            <when state="diaeresis" output="Ӥ"/>
+            <when state="grave" output="Ѝ"/>
+            <when state="macron" output="Ӣ"/>
         </action>
         <action id="a1160">
             <when state="none" output="к"/>
-            <when state="8" output="ќ"/>
+            <when state="acute" output="ќ"/>
         </action>
         <action id="a1161">
             <when state="none" output="К"/>
-            <when state="8" output="Ќ"/>
+            <when state="acute" output="Ќ"/>
         </action>
         <action id="a1170">
             <when state="none" output="л"/>
@@ -1509,17 +1306,17 @@
         </action>
         <action id="a1200">
             <when state="none" output="о"/>
-            <when state="1" output="ӧ"/>
-            <when state="2" output="о̀"/>
-            <when state="7" output="о̄"/>
-            <when state="9" output="о̂"/>
+            <when state="circumflex" output="о̂"/>
+            <when state="diaeresis" output="ӧ"/>
+            <when state="grave" output="о̀"/>
+            <when state="macron" output="о̄"/>
         </action>
         <action id="a1201">
             <when state="none" output="О"/>
-            <when state="1" output="Ӧ"/>
-            <when state="2" output="О̀"/>
-            <when state="7" output="О̄"/>
-            <when state="9" output="О̂"/>
+            <when state="circumflex" output="О̂"/>
+            <when state="diaeresis" output="Ӧ"/>
+            <when state="grave" output="О̀"/>
+            <when state="macron" output="О̄"/>
         </action>
         <action id="a1210">
             <when state="none" output="п"/>
@@ -1535,11 +1332,11 @@
         </action>
         <action id="a1230">
             <when state="none" output="с"/>
-            <when state="8" output="с́"/>
+            <when state="acute" output="с́"/>
         </action>
         <action id="a1231">
             <when state="none" output="С"/>
-            <when state="8" output="С́"/>
+            <when state="acute" output="С́"/>
         </action>
         <action id="a1240">
             <when state="none" output="т"/>
@@ -1549,21 +1346,21 @@
         </action>
         <action id="a1250">
             <when state="none" output="у"/>
-            <when state="1" output="ӱ"/>
-            <when state="2" output="у̀"/>
-            <when state="5" output="ў"/>
-            <when state="6" output="у̃"/>
-            <when state="7" output="ӯ"/>
-            <when state="9" output="у̂"/>
+            <when state="breve" output="ў"/>
+            <when state="circumflex" output="у̂"/>
+            <when state="diaeresis" output="ӱ"/>
+            <when state="grave" output="у̀"/>
+            <when state="macron" output="ӯ"/>
+            <when state="tilde" output="у̃"/>
         </action>
         <action id="a1251">
             <when state="none" output="У"/>
-            <when state="1" output="Ӱ"/>
-            <when state="2" output="У̀"/>
-            <when state="5" output="Ў"/>
-            <when state="6" output="У̃"/>
-            <when state="7" output="Ӯ"/>
-            <when state="9" output="У̂"/>
+            <when state="breve" output="Ў"/>
+            <when state="circumflex" output="У̂"/>
+            <when state="diaeresis" output="Ӱ"/>
+            <when state="grave" output="У̀"/>
+            <when state="macron" output="Ӯ"/>
+            <when state="tilde" output="У̃"/>
         </action>
         <action id="a1260">
             <when state="none" output="ф"/>
@@ -1585,11 +1382,11 @@
         </action>
         <action id="a1290">
             <when state="none" output="ч"/>
-            <when state="1" output="ӵ"/>
+            <when state="diaeresis" output="ӵ"/>
         </action>
         <action id="a1291">
             <when state="none" output="Ч"/>
-            <when state="1" output="Ӵ"/>
+            <when state="diaeresis" output="Ӵ"/>
         </action>
         <action id="a1300">
             <when state="none" output="ш"/>
@@ -1605,19 +1402,19 @@
         </action>
         <action id="a1320">
             <when state="none" output="ъ"/>
-            <when state="2" output="ъ̀"/>
+            <when state="grave" output="ъ̀"/>
         </action>
         <action id="a1321">
             <when state="none" output="Ъ"/>
-            <when state="2" output="Ъ̀"/>
+            <when state="grave" output="Ъ̀"/>
         </action>
         <action id="a1330">
             <when state="none" output="ы"/>
-            <when state="1" output="ӹ"/>
+            <when state="diaeresis" output="ӹ"/>
         </action>
         <action id="a1331">
             <when state="none" output="Ы"/>
-            <when state="1" output="Ӹ"/>
+            <when state="diaeresis" output="Ӹ"/>
         </action>
         <action id="a1340">
             <when state="none" output="ь"/>
@@ -1627,19 +1424,19 @@
         </action>
         <action id="a1350">
             <when state="none" output="э"/>
-            <when state="1" output="ӭ"/>
+            <when state="diaeresis" output="ӭ"/>
         </action>
         <action id="a1351">
             <when state="none" output="Э"/>
-            <when state="1" output="Ӭ"/>
+            <when state="diaeresis" output="Ӭ"/>
         </action>
         <action id="a1360">
             <when state="none" output="ю"/>
-            <when state="2" output="ю̀"/>
+            <when state="grave" output="ю̀"/>
         </action>
         <action id="a1361">
             <when state="none" output="Ю"/>
-            <when state="2" output="Ю̀"/>
+            <when state="grave" output="Ю̀"/>
         </action>
         <action id="a1370">
             <when state="none" output="я"/>
@@ -1647,16 +1444,97 @@
         <action id="a1371">
             <when state="none" output="Я"/>
         </action>
+        <action id="a45">
+            <when state="none" next="grave"/>
+        </action>
+        <action id="a77">
+            <when state="none" output="`"/>
+        </action>
+        <action id="a79">
+            <when state="none" output="`"/>
+        </action>
+        <action id="a82">
+            <when state="none" output="‘"/>
+            <when state="diaeresis" output="‘"/>
+        </action>
+        <action id="a87">
+            <when state="none" output="…"/>
+            <when state="acute" output="́"/>
+        </action>
+        <action id="a90">
+            <when state="none" output=":"/>
+            <when state="diaeresis" output=";"/>
+        </action>
+        <action id="a93">
+            <when state="none" output="’"/>
+            <when state="diaeresis" output="’"/>
+        </action>
+        <action id="a94">
+            <when state="none" output="⇧"/>
+        </action>
+        <action id="a96">
+            <when state="none" output=";"/>
+            <when state="diaeresis" output=":"/>
+        </action>
+        <action id="acute">
+            <when state="none" next="acute"/>
+            <when state="acute" output="´"/>
+        </action>
+        <action id="breve">
+            <when state="none" next="breve"/>
+            <when state="breve" output="̆"/>
+        </action>
+        <action id="caron">
+            <when state="none" next="caron"/>
+            <when state="caron" output="̌"/>
+        </action>
+        <action id="cedilla">
+            <when state="none" next="cedilla"/>
+            <when state="cedilla" output="̧"/>
+        </action>
+        <action id="circumflex">
+            <when state="none" next="circumflex"/>
+            <when state="circumflex" output="̂"/>
+        </action>
+        <action id="diaeresis">
+            <when state="none" next="diaeresis"/>
+            <when state="diaeresis" output="̈"/>
+        </action>
+        <action id="double-acute">
+            <when state="none" next="double-acute"/>
+            <when state="double-acute" output="̈"/>
+        </action>
+        <action id="grave">
+            <when state="none" next="grave"/>
+            <when state="grave" output="̀"/>
+        </action>
+        <action id="macron">
+            <when state="none" next="macron"/>
+            <when state="macron" output="̄"/>
+        </action>
+        <action id="ring">
+            <when state="none" next="ring"/>
+            <when state="ring" output="̊"/>
+        </action>
+        <action id="tilde">
+            <when state="none" next="tilde"/>
+            <when state="tilde" output="̃"/>
+        </action>
+        <action id="~">
+            <when state="none" output="~"/>
+        </action>
     </actions>
     <terminators>
-        <when state="1" output="¨"/>
-        <when state="2" output="`"/>
-        <when state="3" output="˚"/>
-        <when state="4" output="ˇ"/>
-        <when state="5" output="˘"/>
-        <when state="6" output="˜"/>
-        <when state="7" output="¯"/>
-        <when state="8" output="´"/>
-        <when state="9" output="ˆ"/>
+        <when state="acute" output="´"/>
+        <when state="breve" output="˘"/>
+        <when state="caron" output="ˇ"/>
+        <when state="cedilla" output="¸"/>
+        <when state="circumflex" output="ˆ"/>
+        <when state="diaeresis" output="¨"/>
+        <when state="double-acute" output="˝"/>
+        <when state="grave" output="`"/>
+        <when state="macron" output="¯"/>
+        <when state="ring" output="˚"/>
+        <when state="tilde" output="˜"/>
     </terminators>
 </keyboard>

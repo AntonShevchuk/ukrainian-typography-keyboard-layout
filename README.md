@@ -10,10 +10,10 @@ Ukrainian keyboard layout with typographic symbols based on Ilya Birman's typogr
 
 ### Installer
 
-* Download a `ukrainian-typography.dmg` from the [releases page](https://github.com/AntonShevchuk/ukrainian-typography-keyboard-layout/releases)
+* Download a `ukrainian-typography.dmg` from the [release page](https://github.com/AntonShevchuk/ukrainian-typography-keyboard-layout/releases)
 * Run the `Keyboard Installer`
 * Drag and drop `ukrainian-typography.bundle` to the installer window
-* Choose one of the available option:
+* Choose one of the available options:
   * Install for current user (recommended)
   * Install for all users (Sierra or earlier)
 * After a logout you can add the typographic layout in `System Preferences` > `Keyboard` > `Input Sources` menu
@@ -33,6 +33,12 @@ Ukrainian keyboard layout with typographic symbols based on Ilya Birman's typogr
 ### `🇺🇦`
 <p align="center">
     <img alt="Ukrainian typography keyboard layout" src="./docs/ukrainian.png">
+</p>
+
+### `⌃`
+
+<p align="center">
+    <img alt="Ukrainian typography keyboard layout with Shift" src="./docs/shift.png">
 </p>
 
 ### `⌥`
