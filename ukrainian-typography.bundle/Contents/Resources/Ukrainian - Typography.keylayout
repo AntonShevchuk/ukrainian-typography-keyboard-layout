@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 396 on 2024-06-07 at 16:23 (CEST)-->
+<!--Last edited by Ukelele version 396 on 2024-06-07 at 21:57 (CEST)-->
 <keyboard group="126" id="-2611" name="Ukrainian - Typography" maxout="3">
     <layouts>
         <layout first="0" last="17" mapSet="1fc" modifiers="f4"/>
@@ -1455,7 +1455,6 @@
         </action>
         <action id="a82">
             <when state="none" output="‘"/>
-            <when state="diaeresis" output="‘"/>
         </action>
         <action id="a87">
             <when state="none" output="…"/>
@@ -1463,18 +1462,15 @@
         </action>
         <action id="a90">
             <when state="none" output=":"/>
-            <when state="diaeresis" output=";"/>
         </action>
         <action id="a93">
             <when state="none" output="’"/>
-            <when state="diaeresis" output="’"/>
         </action>
         <action id="a94">
             <when state="none" output="⇧"/>
         </action>
         <action id="a96">
             <when state="none" output=";"/>
-            <when state="diaeresis" output=":"/>
         </action>
         <action id="acute">
             <when state="none" next="acute"/>

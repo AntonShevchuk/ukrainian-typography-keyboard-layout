@@ -29,6 +29,15 @@ Ukrainian keyboard layout with typographic symbols based on Ilya Birman's typogr
 * After a logout you can add the typographic layout in `System Preferences` > `Keyboard` > `Input Sources` menu
 
 ## Layout
+Ukrainian typography layout offers several useful options:
+
+- You can use correct typography symbols like `—` and `…`.
+- It includes pairs of different brackets such as `«»`, `„“`, `“”`, and `‘’`.
+- Special symbols like `©`, `®`, and `™` are also available.
+- The degree symbol `°` allows you to write temperatures like `+24°C`.
+- Math symbols such as `1¹+2²+3³≠30`, `¹⁄₂+¹⁄₃+¹⁄₄≈1`, and `2×2=4` are easily accessible.
+- You can type symbols of currencies like `₴`, `£`, `¥`, `€`, `$`, and `¢` with ease.
+- Arrows `←`, `→`, `↑`, and `↓`
 
 ### `🇺🇦`
 <p align="center">
@@ -42,11 +51,25 @@ Ukrainian keyboard layout with typographic symbols based on Ilya Birman's typogr
 </p>
 
 ### `⌥`
+
+Additionally, by using `⌥`, you can input Russian and Belarusian Cyrillic symbols:
+
+* `⌥` + `і` = `ы`
+* `⌥` + `е` = `ё`
+* `⌥` + `є` = `э`
+* `⌥` + `ь` = `ъ`
+* `⌥` + `у` = `ў`
+
 <p align="center">
     <img alt="Ukrainian typography keyboard layout with Option" src="./docs/option.png">
 </p>
 
 ### `⌥` + `⌃`
+
+With `⌥` + `⌃` and accents, graves, and other symbols, you can type a lot of Slavic letters:
+
+* `⌥` + `⌃` + `¨` + `а` = `ä`
+* `⌥` + `⌃` + `¨` + `ж` = `ӝ`
 
 <p align="center">
     <img alt="Ukrainian typography keyboard layout with Option and Shift" src="./docs/option-shift.png">
