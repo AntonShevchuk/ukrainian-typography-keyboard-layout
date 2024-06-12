@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 396 on 2024-06-10 at 10:45 (CEST)-->
+<!--Last edited by Ukelele version 396 on 2024-06-12 at 13:58 (CEST)-->
 <keyboard group="126" id="-12907" name="Ukrainian - Typography" maxout="3">
     <layouts>
         <layout first="0" last="17" mapSet="1fc" modifiers="f4"/>
@@ -385,7 +385,7 @@
             <key code="7" output="×"/>
             <key code="8" output="©"/>
             <key code="9" output="↓"/>
-            <key code="10" output="`"/>
+            <key code="10" output="≈"/>
             <key code="11" output=""/>
             <key code="12" output="§"/>
             <key code="13" output="∑"/>
@@ -425,7 +425,7 @@
             <key code="47" output="&#x003E;"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" output=" "/>
-            <key code="50" output="`"/>
+            <key code="50" output="≈"/>
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
@@ -487,7 +487,7 @@
             <key code="126" output="&#x001E;"/>
         </keyMap>
         <keyMap index="4">
-            <key code="0" output="≈"/>
+            <key code="0" action="acute"/>
             <key code="1" action="a1331"/>
             <key code="2" output="⌀"/>
             <key code="3" output="ƒ"/>
@@ -502,7 +502,7 @@
             <key code="12" action="breve"/>
             <key code="13" action="macron"/>
             <key code="14" output="Ў"/>
-            <key code="15" action="ring"/>
+            <key code="15" action="cyrillic"/>
             <key code="16" action="diaeresis"/>
             <key code="17" output="Ё"/>
             <key code="18" output="¡"/>
@@ -515,10 +515,10 @@
             <key code="25" output="‹"/>
             <key code="26" output="¿"/>
             <key code="27" output="−"/>
-            <key code="28" output=""/>
+            <key code="28" action="ring"/>
             <key code="29" output="›"/>
             <key code="30" output="}"/>
-            <key code="31" action="acute"/>
+            <key code="31" output=""/>
             <key code="32" action="a1051"/>
             <key code="33" output="{"/>
             <key code="34" output="⇧"/>
@@ -529,7 +529,7 @@
             <key code="39" action="a1351"/>
             <key code="40" output="⌥"/>
             <key code="41" output=";"/>
-            <key code="42" output="\"/>
+            <key code="42" output="÷"/>
             <key code="43" output="«"/>
             <key code="44" output="…"/>
             <key code="45" action="tilde"/>
@@ -1192,9 +1192,11 @@
         </action>
         <action id="a1060">
             <when state="none" output="д"/>
+            <when state="cyrillic" output="ђ"/>
         </action>
         <action id="a1061">
             <when state="none" output="Д"/>
+            <when state="cyrillic" output="Ђ"/>
         </action>
         <action id="a1070">
             <when state="none" output="е"/>
@@ -1254,10 +1256,12 @@
         </action>
         <action id="a1130">
             <when state="none" output="і"/>
+            <when state="cyrillic" output="ѕ"/>
             <when state="diaeresis" output="ї"/>
         </action>
         <action id="a1131">
             <when state="none" output="І"/>
+            <when state="cyrillic" output="Ѕ"/>
             <when state="diaeresis" output="Ї"/>
         </action>
         <action id="a1140">
@@ -1292,9 +1296,11 @@
         </action>
         <action id="a1170">
             <when state="none" output="л"/>
+            <when state="cyrillic" output="љ"/>
         </action>
         <action id="a1171">
             <when state="none" output="Л"/>
+            <when state="cyrillic" output="Љ"/>
         </action>
         <action id="a1180">
             <when state="none" output="м"/>
@@ -1304,13 +1310,16 @@
         </action>
         <action id="a1190">
             <when state="none" output="н"/>
+            <when state="cyrillic" output="њ"/>
         </action>
         <action id="a1191">
-            <when state="none" output="Н"/>
+            <when state="none" output="Ж"/>
+            <when state="cyrillic" output="Њ"/>
         </action>
         <action id="a1200">
             <when state="none" output="о"/>
             <when state="circumflex" output="о̂"/>
+            <when state="cyrillic" output="ј"/>
             <when state="diaeresis" output="ӧ"/>
             <when state="grave" output="о̀"/>
             <when state="macron" output="о̄"/>
@@ -1318,6 +1327,7 @@
         <action id="a1201">
             <when state="none" output="О"/>
             <when state="circumflex" output="О̂"/>
+            <when state="cyrillic" output="Ј"/>
             <when state="diaeresis" output="Ӧ"/>
             <when state="grave" output="О̀"/>
             <when state="macron" output="О̄"/>
@@ -1344,9 +1354,11 @@
         </action>
         <action id="a1240">
             <when state="none" output="т"/>
+            <when state="cyrillic" output="ћ"/>
         </action>
         <action id="a1241">
             <when state="none" output="Т"/>
+            <when state="cyrillic" output="Ћ"/>
         </action>
         <action id="a1250">
             <when state="none" output="у"/>
@@ -1386,10 +1398,12 @@
         </action>
         <action id="a1290">
             <when state="none" output="ч"/>
+            <when state="cyrillic" output="џ"/>
             <when state="diaeresis" output="ӵ"/>
         </action>
         <action id="a1291">
             <when state="none" output="Ч"/>
+            <when state="cyrillic" output="Џ"/>
             <when state="diaeresis" output="Ӵ"/>
         </action>
         <action id="a1300">
@@ -1422,9 +1436,11 @@
         </action>
         <action id="a1340">
             <when state="none" output="ь"/>
+            <when state="cyrillic" output="ѣ"/>
         </action>
         <action id="a1341">
             <when state="none" output="Ь"/>
+            <when state="cyrillic" output="Ѣ"/>
         </action>
         <action id="a1350">
             <when state="none" output="э"/>
@@ -1468,6 +1484,10 @@
             <when state="none" next="circumflex"/>
             <when state="circumflex" output="̂"/>
         </action>
+        <action id="cyrillic">
+            <when state="none" next="cyrillic"/>
+        </action>
+        <!-- Ђ   Ѕ   Ј   Љ   Њ   Ћ   Џ -->
         <action id="diaeresis">
             <when state="none" next="diaeresis"/>
             <when state="diaeresis" output="̈"/>
@@ -1499,6 +1519,7 @@
         <when state="caron" output="ˇ"/>
         <when state="cedilla" output="¸"/>
         <when state="circumflex" output="ˆ"/>
+        <when state="cyrillic" output="К"/>
         <when state="diaeresis" output="¨"/>
         <when state="double-acute" output="˝"/>
         <when state="grave" output="`"/>
