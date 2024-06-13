@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="Ukrainian typography keyboard layout" src="./docs/ukrainian-typography_200x200.png">
+    <img alt="Ukrainian typography keyboard layout" src="./docs/ukrainian-typography_500x500.png">
 </p>
 
 # Ukrainian Typography Keyboard
@@ -39,18 +39,14 @@ Ukrainian typography layout offers several useful options:
 - You can type symbols of currencies like `₴`, `£`, `¥`, `€`, `$`, and `¢` with ease.
 - Arrows `←`, `→`, `↑`, and `↓`
 
-### `🇺🇦`
-<p align="center">
-    <img alt="Ukrainian typography keyboard layout" src="./docs/ukrainian.png">
-</p>
+### `🇺🇦 Layout`
+<img alt="Ukrainian typography keyboard layout" src="./docs/ukrainian.png">
 
-### `⌃`
+### `⇧ shift`
 
-<p align="center">
-    <img alt="Ukrainian typography keyboard layout with Shift" src="./docs/shift.png">
-</p>
+<img alt="Ukrainian typography keyboard layout with Shift" src="./docs/shift.png">
 
-### `⌥`
+### `⌥ option`
 
 Additionally, by using `⌥`, you can input Russian and Belarusian Cyrillic symbols:
 
@@ -60,20 +56,24 @@ Additionally, by using `⌥`, you can input Russian and Belarusian Cyrillic symb
 * `⌥` + `ь` = `ъ`
 * `⌥` + `у` = `ў`
 
-<p align="center">
-    <img alt="Ukrainian typography keyboard layout with Option" src="./docs/option.png">
-</p>
+<img alt="Ukrainian typography keyboard layout with Option" src="./docs/option.png">
 
-### `⌥` + `⌃`
+### `⌥ option` + `⇧ shift`
 
-With `⌥` + `⌃` and accents, graves, and other symbols, you can type a lot of Slavic letters:
+With `⌥` + `⇧` and accents, graves, and other symbols, you can type a lot of Slavic letters:
 
-* `⌥` + `⌃` + `¨` + `а` = `ä`
-* `⌥` + `⌃` + `¨` + `ж` = `ӝ`
+* `⌥` + `⇧` + `¨` than `а` = `ä`
+* `⌥` + `⇧` + `¨` than `ж` = `ӝ`
 
-<p align="center">
-    <img alt="Ukrainian typography keyboard layout with Option and Shift" src="./docs/option-shift.png">
-</p>
+<img alt="Ukrainian typography keyboard layout with Option and Shift" src="./docs/option-shift.png">
+
+When you select special symbols, you enter "dead key" mode, allowing you to choose from a limited set of symbols that support this special function. For instance, if you type `⌥` + `⇧` + `¨` for diaeresis:
+
+<img alt="Ukrainian typography keyboard layout with Option and Shift" src="./docs/dead-key-diaeresis.png">
+
+Several Slavic letters are hidden, use  `⌥` + `⇧` + `К` "dead key" to access it:
+
+<img alt="Ukrainian typography keyboard layout with Option and Shift" src="./docs/dead-key-cyrillic.png">
 
 ## License
 
