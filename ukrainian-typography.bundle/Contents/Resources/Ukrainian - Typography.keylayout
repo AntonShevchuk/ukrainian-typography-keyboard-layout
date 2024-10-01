@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 396 on 2024-06-12 at 17:03 (CEST)-->
-<keyboard group="126" id="-961" name="Ukrainian - Typography" maxout="3">
+<!--Last edited by Ukelele version 396 on 2024-10-01 at 13:58 (CEST)-->
+<keyboard group="126" id="-8163" name="Ukrainian - Typography" maxout="3">
     <layouts>
         <layout first="0" last="17" mapSet="1fc" modifiers="f4"/>
         <layout first="18" last="18" mapSet="c18" modifiers="f4"/>
@@ -82,7 +82,7 @@
             <key code="39" action="a1080"/>
             <key code="40" action="a1170"/>
             <key code="41" action="a1090"/>
-            <key code="42" output="\"/>
+            <key code="42" output="/"/>
             <key code="43" action="a1020"/>
             <key code="44" output="."/>
             <key code="45" action="a1240"/>
@@ -196,7 +196,7 @@
             <key code="39" action="a1081"/>
             <key code="40" action="a1171"/>
             <key code="41" action="a1091"/>
-            <key code="42" output="|"/>
+            <key code="42" output="\"/>
             <key code="43" action="a1021"/>
             <key code="44" output=","/>
             <key code="45" action="a1241"/>
@@ -308,7 +308,7 @@
             <key code="39" action="a1081"/>
             <key code="40" action="a1171"/>
             <key code="41" action="a1091"/>
-            <key code="42" output="|"/>
+            <key code="42" output="/"/>
             <key code="43" action="a1021"/>
             <key code="44" output="."/>
             <key code="45" action="a1241"/>
@@ -420,7 +420,7 @@
             <key code="39" action="a1350"/>
             <key code="40" output="„"/>
             <key code="41" output=":"/>
-            <key code="42" output="/"/>
+            <key code="42" output="|"/>
             <key code="43" output="&#x003C;"/>
             <key code="44" output="?"/>
             <key code="45" output="№"/>
@@ -1080,7 +1080,7 @@
             <key code="39" action="a1351"/>
             <key code="40" output="„"/>
             <key code="41" output=":"/>
-            <key code="42" output="/"/>
+            <key code="42" output="|"/>
             <key code="43" output="&#x003C;"/>
             <key code="44" output="?"/>
             <key code="45" output="№"/>
